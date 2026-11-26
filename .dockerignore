@@ -1,0 +1,29 @@
+# Виртуальное окружение (не нужно в контейнере)
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Git (история коммитов не нужна в образе)
+.git/
+.gitignore
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+tmp/
